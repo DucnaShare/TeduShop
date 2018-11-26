@@ -35,7 +35,7 @@ namespace TeduShop.Data
 
         protected override void OnModelCreating(DbModelBuilder modelBuilder)
         {
-            base.OnModelCreating(modelBuilder);
+            
         }
     }
 }
