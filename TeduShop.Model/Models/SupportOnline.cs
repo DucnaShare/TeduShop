@@ -1,11 +1,5 @@
-﻿using System;
-using System.Collections.Generic;
-using System.ComponentModel.DataAnnotations;
+﻿using System.ComponentModel.DataAnnotations;
 using System.ComponentModel.DataAnnotations.Schema;
-using System.Linq;
-using System.Security.Cryptography.X509Certificates;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace TeduShop.Model.Models
 {
@@ -14,32 +8,32 @@ namespace TeduShop.Model.Models
     {
         [Key]
         [DatabaseGenerated(DatabaseGeneratedOption.Identity)]
-        public int ID { get; set; }
+        public int ID { set; get; }
 
         [Required]
         [MaxLength(50)]
-        public string Name { get; set; }
+        public string Name { set; get; }
 
         [MaxLength(50)]
-        public string Deparment { get; set; }
+        public string Department { set; get; }
 
         [MaxLength(50)]
-        public string Skype { get; set; }
+        public string Skype { set; get; }
 
         [MaxLength(50)]
-        public string Mobile { get; set; }
+        public string Mobile { set; get; }
 
         [MaxLength(50)]
-        public string Email { get; set; }
+        public string Email { set; get; }
 
         [MaxLength(50)]
-        public string Yahoo { get; set; }
+        public string Yahoo { set; get; }
 
         [MaxLength(50)]
-        public string Facebook { get; set; }
+        public string Facebook { set; get; }
 
-        public bool Status { get; set; }
+        public bool Status { set; get; }
 
-        public int? DisplayOrder { get; set; }
+        public int? DisplayOrder { set; get; }
     }
 }
