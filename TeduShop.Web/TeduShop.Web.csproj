@@ -204,6 +204,7 @@
     <Compile Include="App_Start\Startup.Auth.cs" />
     <Compile Include="App_Start\Startup.cs" />
     <Compile Include="App_Start\WebApiConfig.cs" />
+    <Compile Include="Controllers\AdminController.cs" />
     <Compile Include="Controllers\HomeController.cs" />
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
@@ -237,6 +238,11 @@
     <Content Include="Content\bootstrap.css.map" />
     <Content Include="Content\bootstrap-theme.min.css.map" />
     <Content Include="Content\bootstrap-theme.css.map" />
+    <Content Include="package.json" />
+    <Content Include="wwwroot\lib\angular\angular-csp.css" />
+    <Content Include="wwwroot\lib\angular\angular.js" />
+    <Content Include="wwwroot\lib\angular\angular.min.js" />
+    <Content Include="wwwroot\lib\angular\index.js" />
     <None Include="Scripts\jquery-3.3.1.intellisense.js" />
     <Content Include="Scripts\bootstrap.js" />
     <Content Include="Scripts\bootstrap.min.js" />
@@ -264,6 +270,13 @@
     <Content Include="Views\Home\About.cshtml" />
     <Content Include="Views\Home\Contact.cshtml" />
     <Content Include="Views\Home\Index.cshtml" />
+    <Content Include="wwwroot\lib\angular\angular.min.js.gzip" />
+    <Content Include="wwwroot\lib\angular\angular.min.js.map" />
+    <Content Include="wwwroot\lib\angular\bower.json" />
+    <Content Include="wwwroot\lib\angular\LICENSE.md" />
+    <Content Include="wwwroot\lib\angular\package.json" />
+    <Content Include="wwwroot\lib\angular\README.md" />
+    <Content Include="Views\Admin\Index.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Assets\admin\" />
