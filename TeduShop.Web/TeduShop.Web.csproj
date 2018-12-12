@@ -222,14 +222,16 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="app\app.js" />
-    <Content Include="app\app.routes.js" />
+    <Content Include="app\components\home\homeController.js" />
+    <Content Include="app\components\home\homeView.html" />
     <Content Include="app\components\products\productListView.html" />
     <Content Include="app\components\products\productEditView.html" />
     <Content Include="app\components\products\productAddView.html" />
     <Content Include="app\components\products\productEditController.js" />
     <Content Include="app\components\products\productListController.js" />
     <Content Include="app\components\products\productAddController.js" />
-    <Content Include="app\components\products\product.routes.js" />
+    <Content Include="app\components\products\products.modules.js" />
+    <Content Include="app\shared\modules\tedushop.common.js" />
     <Content Include="Assets\admin\css\AdminLTE.css" />
     <Content Include="Assets\admin\css\AdminLTE.min.css" />
     <Content Include="Assets\admin\css\alt\AdminLTE-bootstrap-social.css" />
