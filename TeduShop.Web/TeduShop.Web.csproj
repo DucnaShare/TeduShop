@@ -240,6 +240,7 @@
     <Content Include="Content\bootstrap-theme.css.map" />
     <Content Include="package.json" />
     <Content Include="Scripts\spa\app.js" />
+    <Content Include="Scripts\spa\teduShopDirective.html" />
     <Content Include="wwwroot\lib\angular\angular-csp.css" />
     <Content Include="wwwroot\lib\angular\angular.js" />
     <Content Include="wwwroot\lib\angular\angular.min.js" />

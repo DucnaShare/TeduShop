@@ -13,8 +13,15 @@
     <script src="~/Scripts/spa/app.js"></script>
 </head>
 <body>
-    <div ng-controller="myController">
-        {{message}}
-    </div>
+<div ng-controller="schoolController">
+    @*<div tedu-shop-directive></div>*@
+    <tedu-shop-directive></tedu-shop-directive>
+    <input type="number" ng-model="num" /> Value of textbox: {{num}}
+    <button ng-click="checkNumber()">Check number</button>
+
+    <br />
+    {{message}}
+</div>
+
 </body>
 </html>
